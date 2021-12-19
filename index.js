@@ -2,7 +2,7 @@ var canvas = document.getElementById("Game");
 var ctx = canvas.getContext("2d");
 var ball = {
   pos: { x: 500, y: 300 },
-  speed: 5,
+  speed: 9,
 };
 var FPS = 30;
 window.onload = function () {
